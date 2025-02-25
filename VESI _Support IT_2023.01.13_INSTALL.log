@@ -1,0 +1,25 @@
+
+C:\Users\anita.hoti\source\repos\BlogAPI>cscript "C:\Master\Sources\Support IT_2023.01.13\Script_TMC_V1.vbs" 
+Microsoft (R) Windows Script Host Version 5.812
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+
+C:\Users\anita.hoti\source\repos\BlogAPI>reg add HKEY_LOCAL_MACHINE\SOFTWARE\Master\SupportITFolder\ /v Date.Version /t REG_SZ /d "2023.01.13"  /f 
+
+C:\Users\anita.hoti\source\repos\BlogAPI>C:\Master\Sources\WinHTTPDiag\WinHTTPDiag.exe -r 
+WinHTTPDiag version 1.17  by pierrelc@microsoft.com
+resetting auto-proxy caching using WinHttpResetAutoProxy with WINHTTP_RESET_ALL and WINHTTP_RESET_OUT_OF_PROC flags
+
+->Calling WinHttpOpen with WINHTTP_ACCESS_TYPE_NO_PROXY access type
+<-WinHttpOpen succeeded. hHttpSession : 1054970 
+
+->Calling WinHttpResetAutoProxy witht flags WINHTTP_RESET_ALL | WINHTTP_RESET_OUT_OF_PROC
+
+(Sun Feb 16 10:53:27 PM)
+
+(Sun Feb 16 10:53:27 PM)
+<-WinHttpResetAutoProxy success
+Note  If you make subsequent calls to the WinHttpResetAutoProxy function, there must be at least 30 seconds delay between calls to reset the state of the auto-proxy.
+If there is less than 30 seconds, the WinHttpResetAutoProxy function call may return ERROR_SUCCESS but the reset won't happen.
+
+C:\Users\anita.hoti\source\repos\BlogAPI>Exit
